@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+google-generativeai
+pinecone
+langgraph
+langchain-openai
+python-dotenv
+websockets
+requests
+faster-whisper
+pypdf
+python-docx
+trafilatura

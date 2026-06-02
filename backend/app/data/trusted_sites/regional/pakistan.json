@@ -1,0 +1,34 @@
+{
+  "region": "Pakistan",
+  "domains": {
+    "government": {
+      "ogra.org.pk": 92,
+      "sbp.org.pk": 90,
+      "finance.gov.pk": 88,
+      "pbs.gov.pk": 86,
+      "secp.gov.pk": 84,
+      "pseb.org.pk": 80
+    },
+    "news_english": {
+      "dawn.com": 82,
+      "thenews.com.pk": 76,
+      "brecorder.com": 74,
+      "profit.pakistantoday.com.pk": 70,
+      "geo.tv": 72,
+      "arynews.tv": 68,
+      "samaa.tv": 66
+    },
+    "news_urdu": {
+      "jang.com.pk": 72,
+      "express.pk": 68,
+      "dunyanews.tv": 64,
+      "bol.com.pk": 62
+    },
+    "specialized": {
+      "pakwheels.com": 80,
+      "propakistani.pk": 72,
+      "hamariweb.com": 62,
+      "zameen.com": 76
+    }
+  }
+}

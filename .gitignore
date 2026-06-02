@@ -1,0 +1,65 @@
+# ==========================================
+# Git Security & Privacy Ignore Rules
+# ==========================================
+
+# 1. Environment Secrets & Credentials
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.pfx
+
+# 2. Markdown Files (Planning & Documentation)
+# Requirement: Ignore all markdown files in the repository
+*.md
+**/*.md
+
+# 3. Frontend Folder
+# Requirement: Ignore the frontend folder as a whole
+frontend/
+/frontend/
+
+# 4. Databases & SQLite Engine Residues
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+backend/sentinel_ai.db
+backend/sophie.db
+
+# 5. Local Data, Logs, & WhatsApp Gateway Sessions
+local_data/
+backend/local_data/
+*.log
+**/*.log
+backend/.wwebjs_auth/
+backend/.wwebjs_cache/
+**/.wwebjs_auth/
+**/.wwebjs_cache/
+
+# 6. Archive & Zip Backup Files
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
+backend/app.zip
+
+# 7. Dependencies, Caches, & Build Outputs
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.idea/
+
+# 8. Temporary & Project Planning Scrap Files
+*.txt
+!backend/requirements.txt

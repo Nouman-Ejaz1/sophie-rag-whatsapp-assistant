@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "description": "Core global trusted sites — built in, do not delete",
+  "domains": {
+    "international_news": {
+      "reuters.com": 88,
+      "apnews.com": 86,
+      "bbc.com": 82,
+      "bbc.co.uk": 82,
+      "aljazeera.com": 76,
+      "france24.com": 72,
+      "dw.com": 72,
+      "afp.com": 80,
+      "bloomberg.com": 78,
+      "ft.com": 78,
+      "theguardian.com": 74,
+      "nytimes.com": 74,
+      "washingtonpost.com": 72,
+      "cnbc.com": 70,
+      "economist.com": 76,
+      "nbcsandiego.com": 72
+    },
+    "finance_global": {
+      "xe.com": 78,
+      "oanda.com": 78,
+      "investing.com": 72,
+      "tradingeconomics.com": 70,
+      "marketwatch.com": 70,
+      "yahoo.finance.com": 68,
+      "coinmarketcap.com": 74,
+      "coingecko.com": 76,
+      "coindesk.com": 70
+    },
+    "government_global": {
+      "un.org": 88,
+      "who.int": 88,
+      "worldbank.org": 86,
+      "imf.org": 86,
+      "nato.int": 82
+    },
+    "technology": {
+      "techcrunch.com": 70,
+      "theverge.com": 68,
+      "arstechnica.com": 72,
+      "wired.com": 70,
+      "venturebeat.com": 64,
+      "zdnet.com": 64
+    },
+    "science_health": {
+      "nature.com": 90,
+      "science.org": 90,
+      "pubmed.ncbi.nlm.nih.gov": 90,
+      "who.int": 88,
+      "cdc.gov": 86,
+      "nih.gov": 88,
+      "mayoclinic.org": 82,
+      "webmd.com": 64
+    },
+    "ai_official": {
+      "anthropic.com": 92,
+      "openai.com": 92,
+      "ai.google.dev": 90,
+      "deepmind.google": 90,
+      "mistral.ai": 88,
+      "x.ai": 88,
+      "meta.ai": 88,
+      "huggingface.co": 80
+    }
+  }
+}
